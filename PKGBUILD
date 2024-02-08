@@ -14,7 +14,7 @@ sha256sums=('453daf99794d90ff5f0c804f8bfe846aa149ed50a18f74a3da0842570dba0b70'
 
 build() {
     sed -i "s|\${HOMEBREW_FOLDER}|/home/%i/.local/var/opt/decky-loader|" "${srcdir}/decky-loader@.service"
-	sed -i "/^ExecStart=/i ExecStartPre=/usr/bin/decky-loader-helper %i" "${srcdir}/decky-loader@.service"
+	sed -i "/^ExecStart=/i ExecStartPre=/usr/bin/decky-loader-helper v${pkgver} %i" "${srcdir}/decky-loader@.service"
 }
 
 package() {
