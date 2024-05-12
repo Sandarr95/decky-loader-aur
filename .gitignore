@@ -1,0 +1,5 @@
+PluginLoader
+decky-loader-*.pkg*
+decky-loader@.service
+pkg/
+src/
