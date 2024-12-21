@@ -1,5 +1,5 @@
 pkgname=decky-loader
-pkgver=3.0.4
+pkgver=3.0.5
 pkgrel=1
 pkgdesc="Decky Loader is a homebrew plugin launcher for the Steam Deck."
 arch=('x86_64')
@@ -8,9 +8,9 @@ license=('MIT')
 source=("PluginLoader::${url}/releases/download/v${pkgver}/PluginLoader"
 	    "decky-loader@.service::${url}/raw/v${pkgver}/dist/plugin_loader-release.service"
 	    "decky-loader-helper")
-sha256sums=('f78a502ff7e6a40a4ffacba4bb86bfabb9d34dfff3a95693e6b6d5a3010560f6'
-             '64d6aa626aa45e1659e3137aa3afd72edd840094199d62bb6ff2e73c5ce738b1'
-             'SKIP')
+sha256sums=('a8b7bd58ff0c0ac80f5c07e1fa13bee45f1bb17195283f4902a7930c40aba761'
+            '64d6aa626aa45e1659e3137aa3afd72edd840094199d62bb6ff2e73c5ce738b1'
+            'SKIP')
 
 build() {
     sed -i "s|\${HOMEBREW_FOLDER}|/home/%i/.local/var/opt/decky-loader|" "${srcdir}/decky-loader@.service"
