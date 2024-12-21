@@ -1,5 +1,5 @@
 pkgname=decky-loader
-pkgver=2.12.0
+pkgver=3.0.4
 pkgrel=1
 pkgdesc="Decky Loader is a homebrew plugin launcher for the Steam Deck."
 arch=('x86_64')
@@ -8,8 +8,8 @@ license=('MIT')
 source=("PluginLoader::${url}/releases/download/v${pkgver}/PluginLoader"
 	    "decky-loader@.service::${url}/raw/v${pkgver}/dist/plugin_loader-release.service"
 	    "decky-loader-helper")
-sha256sums=('92060a5270a005d1562a4d9c8c4883815345a77208de8067d4430aced6ebf219'
-             '5c3b5e1493469e69ad37f177a16265a44bf675fdd5e3c002570bcf73bae618dc'
+sha256sums=('f78a502ff7e6a40a4ffacba4bb86bfabb9d34dfff3a95693e6b6d5a3010560f6'
+             '64d6aa626aa45e1659e3137aa3afd72edd840094199d62bb6ff2e73c5ce738b1'
              'SKIP')
 
 build() {
