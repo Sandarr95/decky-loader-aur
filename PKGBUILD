@@ -1,3 +1,4 @@
+# Maintainer: Sander Kolman <Sandarr95@users.noreply.github.com>
 pkgname=decky-loader-bin
 pkgver=3.0.5
 pkgrel=2
