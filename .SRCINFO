@@ -1,7 +1,7 @@
 pkgbase = decky-loader-bin
-	pkgdesc = Decky Loader is a homebrew plugin launcher for the Steam Deck.
+	pkgdesc = Unofficial Arch build of Decky Loader, a homebrew plugin launcher for the Steam Deck.
 	pkgver = 3.0.5
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/SteamDeckHomebrew/decky-loader
 	arch = x86_64
 	license = MIT
