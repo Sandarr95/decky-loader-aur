@@ -1,7 +1,7 @@
 # Maintainer: Sander Kolman <Sandarr95@users.noreply.github.com>
 pkgname=decky-loader-bin
 pkgver=3.0.5
-pkgrel=3
+pkgrel=4
 pkgdesc="Unofficial Arch build of Decky Loader, a homebrew plugin launcher for the Steam Deck."
 arch=('x86_64')
 url="https://github.com/SteamDeckHomebrew/decky-loader"
