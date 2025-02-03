@@ -6,6 +6,8 @@ pkgdesc="Unofficial Arch build of Decky Loader, a homebrew plugin launcher for t
 arch=('x86_64')
 url="https://github.com/SteamDeckHomebrew/decky-loader"
 license=('MIT')
+provides=('decky-loader')
+conflicts=('decky-loader')
 source=("PluginLoader::${url}/releases/download/v${pkgver}/PluginLoader"
         "decky-loader@.service::${url}/raw/v${pkgver}/dist/plugin_loader-release.service"
         "decky-loader-helper")
