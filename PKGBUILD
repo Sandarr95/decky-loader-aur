@@ -1,6 +1,6 @@
 # Maintainer: Sander Kolman <Sandarr95@users.noreply.github.com>
 pkgname='decky-loader-prerelease-bin'
-_pkgver=3.1.2-pre1
+_pkgver=3.1.3-pre2
 pkgver="${_pkgver//-/_}"
 pkgrel=1
 pkgdesc="Unofficial Arch build of Decky Loader (pre-release), a homebrew plugin launcher for the Steam Deck."
@@ -12,7 +12,7 @@ conflicts=('decky-loader')
 source=("PluginLoader::${url}/releases/download/v${_pkgver}/PluginLoader"
         "decky-loader@.service::${url}/raw/v${_pkgver}/dist/plugin_loader-release.service"
         "decky-loader-helper")
-sha256sums=('7326d4e5e260cf79abe52f3dd04392a1c5231c5165b9eee9fb8a364ed006d0af'
+sha256sums=('46b6aa1c63cc86b49eb5a8d576e68c876f224e66f09d3ff2ad027a609b95c16d'
             '64d6aa626aa45e1659e3137aa3afd72edd840094199d62bb6ff2e73c5ce738b1'
             'SKIP')
 
